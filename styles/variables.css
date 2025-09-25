@@ -2,3 +2,34 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --rec-display: block;
+  --background-img: url("../images/cover-image-dark.png");
+  --background-color: #000028;
+  --decorative-corners-color: #ff0070;
+  --title-color: #db00ff;
+  --title-decor: #ff0070;
+  --color-text: #000028;
+  --color-section-title: #ff0070;
+  --color-card-text: #f1b2ce;
+  --accent-color: #ff0070;
+  --switch-color: #ff0070;
+  --hover-color-border-button: rgba(255, 0, 112, 0.4);
+  --header-padding: 10px;
+  --main-gap: 50px;
+  --main-padding-vertical: 40px;
+  --main-padding-horizontal: 10px;
+  --section-gallery-gap: 10px;
+}
+
+@media (width >= 768px) {
+  :root {
+    --header-padding: 20px;
+    --main-gap: 80px;
+    --main-margin-top: 60px;
+    --main-padding-vertical: 60px;
+    --main-padding-horizontal: 20px;
+    --section-gallery-gap: 20px;
+  }
+}
